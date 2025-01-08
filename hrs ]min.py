@@ -11,8 +11,8 @@ while True:
 while True:
     try:
         m = int(input('Digite quantos minutos você quer:'))
-        if m > 60:
-            print('Digite um número entre 1 e 60!')
+        if m > 59:
+            print('Digite um número entre 1 e 59!')
         else:
             print()
             print('continuando')
@@ -23,8 +23,8 @@ while True:
 while True:
     try:
         s = int(input('Digite quantos segundos você quer:'))
-        if s > 60:
-            print('Digite um número entre 1 e 60!')
+        if s > 59:
+            print('Digite um número entre 1 e 59!')
         else:
             print()
             c = input('digite qualquer tecla para continuar...')
